@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		42EB2925262C9755008C1E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB2924262C9755008C1E02 /* AppDelegate.swift */; };
 		42EB2927262C9755008C1E02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB2926262C9755008C1E02 /* SceneDelegate.swift */; };
-		42EB2929262C9755008C1E02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB2928262C9755008C1E02 /* ViewController.swift */; };
+		42EB2929262C9755008C1E02 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB2928262C9755008C1E02 /* CalculationController.swift */; };
 		42EB292C262C9755008C1E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB292A262C9755008C1E02 /* Main.storyboard */; };
 		42EB292E262C9758008C1E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EB292D262C9758008C1E02 /* Assets.xcassets */; };
 		42EB2931262C9758008C1E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB292F262C9758008C1E02 /* LaunchScreen.storyboard */; };
 		42EB293C262C9758008C1E02 /* KabaraiCalculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB293B262C9758008C1E02 /* KabaraiCalculationTests.swift */; };
 		42EB2947262C9758008C1E02 /* KabaraiCalculationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB2946262C9758008C1E02 /* KabaraiCalculationUITests.swift */; };
+		42EB2958262C97AD008C1E02 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB2957262C97AD008C1E02 /* AppColor.swift */; };
+		42EB295D262C9835008C1E02 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB295C262C9835008C1E02 /* TabBarController.swift */; };
+		42EB296F262C9A07008C1E02 /* CaluculationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB296E262C9A07008C1E02 /* CaluculationRepository.swift */; };
+		42EB2977262C9A23008C1E02 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB2976262C9A23008C1E02 /* CustomButton.swift */; };
+		42EB297C262C9A34008C1E02 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB297B262C9A34008C1E02 /* InformationViewController.swift */; };
+		E39365AE54D2AA759FB563C8 /* Pods_KabaraiCalculation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F7A9FDE0DA1711B439594 /* Pods_KabaraiCalculation.framework */; };
+		EC3F09912653C90A0FEFC526 /* Pods_KabaraiCalculationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7B2F6CC1D7D9AB1A0BC27A /* Pods_KabaraiCalculationTests.framework */; };
+		F6FB21ED05D673D2D921E37C /* Pods_KabaraiCalculation_KabaraiCalculationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077D4323D49515CC28006CF /* Pods_KabaraiCalculation_KabaraiCalculationUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263B1B100959F8BA86E4399C /* Pods-KabaraiCalculation-KabaraiCalculationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KabaraiCalculation-KabaraiCalculationUITests.release.xcconfig"; path = "Target Support Files/Pods-KabaraiCalculation-KabaraiCalculationUITests/Pods-KabaraiCalculation-KabaraiCalculationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B81D6AD8093847FE0FDD9FB /* Pods-KabaraiCalculation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KabaraiCalculation.debug.xcconfig"; path = "Target Support Files/Pods-KabaraiCalculation/Pods-KabaraiCalculation.debug.xcconfig"; sourceTree = "<group>"; };
 		42EB2921262C9755008C1E02 /* KabaraiCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KabaraiCalculation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EB2924262C9755008C1E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42EB2926262C9755008C1E02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42EB2928262C9755008C1E02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EB2928262C9755008C1E02 /* CalculationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationController.swift; sourceTree = "<group>"; };
 		42EB292B262C9755008C1E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42EB292D262C9758008C1E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42EB2930262C9758008C1E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		42EB2942262C9758008C1E02 /* KabaraiCalculationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KabaraiCalculationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EB2946262C9758008C1E02 /* KabaraiCalculationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KabaraiCalculationUITests.swift; sourceTree = "<group>"; };
 		42EB2948262C9758008C1E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EB2957262C97AD008C1E02 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		42EB295C262C9835008C1E02 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		42EB296E262C9A07008C1E02 /* CaluculationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaluculationRepository.swift; sourceTree = "<group>"; };
+		42EB2976262C9A23008C1E02 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		42EB297B262C9A34008C1E02 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		4F3843169F40CEFA4240BCDB /* Pods-KabaraiCalculation-KabaraiCalculationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KabaraiCalculation-KabaraiCalculationUITests.debug.xcconfig"; path = "Target Support Files/Pods-KabaraiCalculation-KabaraiCalculationUITests/Pods-KabaraiCalculation-KabaraiCalculationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7077D4323D49515CC28006CF /* Pods_KabaraiCalculation_KabaraiCalculationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KabaraiCalculation_KabaraiCalculationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72194C24A7D48A6F3BC09B23 /* Pods-KabaraiCalculationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KabaraiCalculationTests.release.xcconfig"; path = "Target Support Files/Pods-KabaraiCalculationTests/Pods-KabaraiCalculationTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D388AAAA36EEDF8038E017D /* Pods-KabaraiCalculation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KabaraiCalculation.release.xcconfig"; path = "Target Support Files/Pods-KabaraiCalculation/Pods-KabaraiCalculation.release.xcconfig"; sourceTree = "<group>"; };
+		8C7B2F6CC1D7D9AB1A0BC27A /* Pods_KabaraiCalculationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KabaraiCalculationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13F7A9FDE0DA1711B439594 /* Pods_KabaraiCalculation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KabaraiCalculation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1391E52C437C39583D8C36 /* Pods-KabaraiCalculationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KabaraiCalculationTests.debug.xcconfig"; path = "Target Support Files/Pods-KabaraiCalculationTests/Pods-KabaraiCalculationTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39365AE54D2AA759FB563C8 /* Pods_KabaraiCalculation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3F09912653C90A0FEFC526 /* Pods_KabaraiCalculationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FB21ED05D673D2D921E37C /* Pods_KabaraiCalculation_KabaraiCalculationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,8 @@
 				42EB293A262C9758008C1E02 /* KabaraiCalculationTests */,
 				42EB2945262C9758008C1E02 /* KabaraiCalculationUITests */,
 				42EB2922262C9755008C1E02 /* Products */,
+				DCAFEB89BE12E749E8BBB6F8 /* Pods */,
+				C67196A4E1CFCB866C730F4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +126,10 @@
 		42EB2923262C9755008C1E02 /* KabaraiCalculation */ = {
 			isa = PBXGroup;
 			children = (
-				42EB2924262C9755008C1E02 /* AppDelegate.swift */,
-				42EB2926262C9755008C1E02 /* SceneDelegate.swift */,
-				42EB2928262C9755008C1E02 /* ViewController.swift */,
+				42EB296C262C99AD008C1E02 /* BackEnd */,
+				42EB296D262C99C6008C1E02 /* FrontEnd */,
 				42EB292A262C9755008C1E02 /* Main.storyboard */,
+				42EB295C262C9835008C1E02 /* TabBarController.swift */,
 				42EB292D262C9758008C1E02 /* Assets.xcassets */,
 				42EB292F262C9758008C1E02 /* LaunchScreen.storyboard */,
 				42EB2932262C9758008C1E02 /* Info.plist */,
@@ -128,6 +155,50 @@
 			path = KabaraiCalculationUITests;
 			sourceTree = "<group>";
 		};
+		42EB296C262C99AD008C1E02 /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				42EB2924262C9755008C1E02 /* AppDelegate.swift */,
+				42EB2957262C97AD008C1E02 /* AppColor.swift */,
+				42EB2926262C9755008C1E02 /* SceneDelegate.swift */,
+			);
+			path = BackEnd;
+			sourceTree = "<group>";
+		};
+		42EB296D262C99C6008C1E02 /* FrontEnd */ = {
+			isa = PBXGroup;
+			children = (
+				42EB2928262C9755008C1E02 /* CalculationController.swift */,
+				42EB296E262C9A07008C1E02 /* CaluculationRepository.swift */,
+				42EB2976262C9A23008C1E02 /* CustomButton.swift */,
+				42EB297B262C9A34008C1E02 /* InformationViewController.swift */,
+			);
+			path = FrontEnd;
+			sourceTree = "<group>";
+		};
+		C67196A4E1CFCB866C730F4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13F7A9FDE0DA1711B439594 /* Pods_KabaraiCalculation.framework */,
+				7077D4323D49515CC28006CF /* Pods_KabaraiCalculation_KabaraiCalculationUITests.framework */,
+				8C7B2F6CC1D7D9AB1A0BC27A /* Pods_KabaraiCalculationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCAFEB89BE12E749E8BBB6F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B81D6AD8093847FE0FDD9FB /* Pods-KabaraiCalculation.debug.xcconfig */,
+				7D388AAAA36EEDF8038E017D /* Pods-KabaraiCalculation.release.xcconfig */,
+				4F3843169F40CEFA4240BCDB /* Pods-KabaraiCalculation-KabaraiCalculationUITests.debug.xcconfig */,
+				263B1B100959F8BA86E4399C /* Pods-KabaraiCalculation-KabaraiCalculationUITests.release.xcconfig */,
+				FA1391E52C437C39583D8C36 /* Pods-KabaraiCalculationTests.debug.xcconfig */,
+				72194C24A7D48A6F3BC09B23 /* Pods-KabaraiCalculationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EB294B262C9758008C1E02 /* Build configuration list for PBXNativeTarget "KabaraiCalculation" */;
 			buildPhases = (
+				84FCDC978A606E858887029A /* [CP] Check Pods Manifest.lock */,
 				42EB291D262C9755008C1E02 /* Sources */,
 				42EB291E262C9755008C1E02 /* Frameworks */,
 				42EB291F262C9755008C1E02 /* Resources */,
+				577B367863F4C1E50205AE49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EB294E262C9758008C1E02 /* Build configuration list for PBXNativeTarget "KabaraiCalculationTests" */;
 			buildPhases = (
+				E1D3EC01EDB9481B1D5A9B3B /* [CP] Check Pods Manifest.lock */,
 				42EB2933262C9758008C1E02 /* Sources */,
 				42EB2934262C9758008C1E02 /* Frameworks */,
 				42EB2935262C9758008C1E02 /* Resources */,
@@ -170,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42EB2951262C9758008C1E02 /* Build configuration list for PBXNativeTarget "KabaraiCalculationUITests" */;
 			buildPhases = (
+				F41A9ABBADE85D1CA797A47C /* [CP] Check Pods Manifest.lock */,
 				42EB293E262C9758008C1E02 /* Sources */,
 				42EB293F262C9758008C1E02 /* Frameworks */,
 				42EB2940262C9758008C1E02 /* Resources */,
+				4D866B4AD07D8011D9D0711B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +329,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D866B4AD07D8011D9D0711B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KabaraiCalculation-KabaraiCalculationUITests/Pods-KabaraiCalculation-KabaraiCalculationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KabaraiCalculation-KabaraiCalculationUITests/Pods-KabaraiCalculation-KabaraiCalculationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KabaraiCalculation-KabaraiCalculationUITests/Pods-KabaraiCalculation-KabaraiCalculationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577B367863F4C1E50205AE49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KabaraiCalculation/Pods-KabaraiCalculation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KabaraiCalculation/Pods-KabaraiCalculation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KabaraiCalculation/Pods-KabaraiCalculation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FCDC978A606E858887029A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KabaraiCalculation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D3EC01EDB9481B1D5A9B3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KabaraiCalculationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41A9ABBADE85D1CA797A47C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KabaraiCalculation-KabaraiCalculationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42EB291D262C9755008C1E02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42EB2929262C9755008C1E02 /* ViewController.swift in Sources */,
+				42EB2929262C9755008C1E02 /* CalculationController.swift in Sources */,
+				42EB2958262C97AD008C1E02 /* AppColor.swift in Sources */,
+				42EB297C262C9A34008C1E02 /* InformationViewController.swift in Sources */,
 				42EB2925262C9755008C1E02 /* AppDelegate.swift in Sources */,
+				42EB296F262C9A07008C1E02 /* CaluculationRepository.swift in Sources */,
+				42EB2977262C9A23008C1E02 /* CustomButton.swift in Sources */,
+				42EB295D262C9835008C1E02 /* TabBarController.swift in Sources */,
 				42EB2927262C9755008C1E02 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,44 +617,53 @@
 		};
 		42EB294C262C9758008C1E02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B81D6AD8093847FE0FDD9FB /* Pods-KabaraiCalculation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = KabaraiCalculation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.KabaraiCalculation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = KabaraiDevelop;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		42EB294D262C9758008C1E02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D388AAAA36EEDF8038E017D /* Pods-KabaraiCalculation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = KabaraiCalculation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.KabaraiCalculation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = KabaraiDevelop;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		42EB294F262C9758008C1E02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1391E52C437C39583D8C36 /* Pods-KabaraiCalculationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +686,7 @@
 		};
 		42EB2950262C9758008C1E02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72194C24A7D48A6F3BC09B23 /* Pods-KabaraiCalculationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +709,7 @@
 		};
 		42EB2952262C9758008C1E02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3843169F40CEFA4240BCDB /* Pods-KabaraiCalculation-KabaraiCalculationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +730,7 @@
 		};
 		42EB2953262C9758008C1E02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263B1B100959F8BA86E4399C /* Pods-KabaraiCalculation-KabaraiCalculationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
